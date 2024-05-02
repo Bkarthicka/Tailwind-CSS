@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <button class="bg-sky-500 hover:bg-sky-700 rounded-full">
+      Save changes
+    </button>
+  </div>
+  <div class="bg-white dark:bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
+    <div>
+      <span class="inline-flex items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" aria-hidden="false" stroke-linejoin="round" d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0 1 18 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3 1.5 1.5 3-3.75" />
+        </svg>
+        
+      </span>
+    </div>
+    <h3 class="text-slate-100 dark:text-white mt-5 text-base font-medium tracking-tight ">Writes Upside-Down</h3>
+    <p class="text-slate-100 dark:text-slate-400 mt-2 text-sm">
+      The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in outer space.
+    </p>
+  </div>
+  <div>
+    <a href="#main" class="sr-only focus:not-sr-only">
+      <span aria-hidden="false">Skip to content</span>
+    </a>
+  </div>
+  <div>
+    <button class="px-4 py-2 text-sm font-medium text-gray-700 bg-gray-300 rounded-lg shadow-sm hover:bg-gray-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
+      Show details
+    </button>
+    
+    <div class="hidden aria-hidden="false"">
+      <p>This is the hidden content that will be revealed when the button is clicked.</p>
+    </div>
+    <div class="max-w-md mx-auto items-center border-2 mt-3">
+      <ul role="list" class="p-6 divide-y divide-slate-200">
+          <!-- Remove top/bottom padding when first/last child -->
+          <li class="flex py-4 first:pt-0 last:pb-0 ">
+            <img class="h-10 w-10 rounded-full" src="img/curry.jpeg" alt="" />
+            <div class="ml-3 overflow-hidden">
+              <p class="text-sm font-medium text-slate-900">{person.name}</p>
+              <p class="text-sm text-slate-500 truncate">{person.email}</p>
+            </div>
+          </li>
+          <li class="flex py-4 first:pt-0 last:pb-0">
+            <img class="h-10 w-10 rounded-full" src="img/briyani.jpg" alt="" />
+            <div class="ml-3 overflow-hidden">
+              <p class="text-sm font-medium text-slate-900">{person.name}</p>
+              <p class="text-sm text-slate-500 truncate">{person.email}</p>
+            </div>
+          </li>
+          <li class="flex py-4 first:pt-0 last:pb-0">
+            <img class="h-10 w-10 rounded-full" src="img/noodles.jpeg" alt="" />
+            <div class="ml-3 overflow-hidden">
+              <p class="text-sm font-medium text-slate-900">{person.name}</p>
+              <p class="text-sm text-slate-500 truncate">{person.email}</p>
+            </div>
+          </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
